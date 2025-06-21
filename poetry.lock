@@ -1674,6 +1674,17 @@ websocket-client = ">=0.32.0,<0.40.0 || >0.40.0,<0.41.dev0 || >=0.43.dev0"
 adal = ["adal (>=1.0.2)"]
 
 [[package]]
+name = "lckr-jupyterlab-variableinspector"
+version = "3.2.4"
+description = "Variable inspector extension for JupyterLab"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "lckr_jupyterlab_variableinspector-3.2.4-py3-none-any.whl", hash = "sha256:36c529dc07f258f66ebcbb4fb4551e410ccc039a6ecc7ad693bbedc79f4e4b12"},
+    {file = "lckr_jupyterlab_variableinspector-3.2.4.tar.gz", hash = "sha256:9bad61401ef24cbdd4bc000d882038bbdd9d79550f624bd1930978dd56dddf7b"},
+]
+
+[[package]]
 name = "markdown-it-py"
 version = "3.0.0"
 description = "Python port of markdown-it. Markdown parsing, done right!"
@@ -4848,4 +4859,4 @@ type = ["pytest-mypy"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "b9d77573714be588ee98328cc1d44b2652211f18d0f7b81fb92df9d8c4e560fe"
+content-hash = "fe745a4d771f2190891266dbba558cd408744376977f6bc01f4044f11c487ba3"
